@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivanand Reddy - Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="profile-icon" onclick="toggleUserDetails()">
+            <img src="My image.png" alt="Profile Icon">Shivanand Reddy
+            <div class="User-details" id="UserDetails">
+                <p>Welcome, Shivanand Reddy</p>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <section id="profile">
+            <h2>Shivanand Reddy</h2>
+            <p>
+                RV VIDYANIKETAN POST 8TH MILE<br>
+                MYSORE RD, RV VIDYANIKETAN, MAILASANDRA<br>
+                BENGALORE, KARNATAKA, 560059<br>
+                Country: INDIA
+                <br>
+                Email ✉: shivanandr.btech23@rvu.edu.in<br>
+                Phone: +91 8660206614
+            </p>
+            <div class="profile-photo">
+                <img src="developer.png" alt="Profile Photo">
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <table border="border">
+                <tr>
+                    <th>Skill</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>HTML5 and CSS3</td>
+                    <td>Proficiency in creating structured web pages and styling them using the latest standards.</td>
+                </tr>
+                <tr>
+                    <td>Responsive Web Design</td>
+                    <td>Ability to design websites that adapt to various screen sizes and devices.</td>
+                </tr>
+                <tr>
+                    <td>Ethical hacking</td>
+                    <td>Capable of hacking servers and domains.</td>
+                </tr>
+                <tr>
+                    <td>JavaScript and jQuery</td>
+                    <td>Experience in adding interactivity to websites.</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Creating a well-looking backend for applications.</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p class="ee">
+                <strong>Bachelor of Technology in Computer Science and Engineering<br>
+                RV University, Bangalore<br>
+                Graduated in 2027<br>
+                9.5 CGPA</strong>
+                <br><br>
+                <strong>Associate's Degree in Ethical Hacking <br>
+                Massachusetts Institute of Technology, US<br>
+                Graduated in 2028<br>
+                9.4 CGPA</strong>
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>Web Developer Intern</h3>
+                <p>Google, May 2024 - August 2024</p>
+                <p>Assisted in designing and developing websites, including front-end and back-end tasks.
+                Collaborated with the development team to implement responsive web designs and optimize
+                user experiences.</p>
+.
+<div class=""></div>            </div>
+            <div class="job">
+                <h3>Web Developer Intern</h3>
+                <p>Microsoft, June 2026 - September 2026</p>
+                <p>Contributed to the creation of interactive and visually appealing web applications, enhancing user engagement and site performance.</p>
+            </div>
+            <div class="job">
+                <h3>Web Developer Intern</h3>
+                <p>Amazon Web Services, January 2027 - April 2028</p>
+                <p>Supported the development of e-commerce websites, focusing on improving security measures and streamlining web functionalities.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>Designed and developed a personal portfolio website to showcase my web design projects.
+                Used HTML, CSS, and JavaScript to create an interactive and visually appealing site.</p> 
+            </div>
+            <div class="project">
+                <h3>E-commerce Website Redesign</h3>
+                <p>Collaborated with a team to redesign an e-commerce website, focusing on improving the user
+                interface and enhancing the overall user experience. Implemented responsive design and enhanced
+                product pages.</p>
+            </div>
+            <div class="project">
+                <h3>Content Management System (CMS) Customization</h3>
+                <p>Customized a CMS for a client, tailoring the system to meet their specific needs. Implemented 
+                user-friendly features, optimized database performance, and ensured seamless content updates.</p>
+            </div>
+            <div class="project">
+                <h3>Interactive Blog Platform</h3>
+                <p>Designed and developed an interactive blog platform with user registration, comments, and real-time
+                updates. Utilized Node.js and MongoDB for the back end, and React for the front end to create a dynamic
+                and engaging blogging experience.</p>
+            </div>
+            <div class="project">
+                <h3>Online Food Ordering System</h3>
+                <p>Developed a web-based food ordering system for a local restaurant, allowing customers to browse the menu,
+                place orders, and make secure online payments. Integrated responsive design and real-time order tracking
+                for an enhanced dining experience.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact us</h2>
+            <form action="/submit_contact_form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+  
+    <div class="User-details" id="UserDetails">
+        <p id="welcomeMessage">Welcome, Shivanand Reddy</p>
+    </div>
+
+    <footer>
+        <p>&copy; Shivanand Reddy. All rights reserved.</p>
+    </footer>
+
+   <script src="script.js"></script>
+    
+</body>
+</html>
